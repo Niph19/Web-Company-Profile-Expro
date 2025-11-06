@@ -1,0 +1,50 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar i {
+    color: white;
+}
+.navbar i:hover {
+    cursor: pointer;
+}
+.scrolling-active {
+    background-color: #0d6efd;
+    transition: 0.5s;
+}
+.hero {
+    background-image: linear-gradient(rgba(1, 1, 1, 0.6)), url(../../assets/img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+#col1 {
+    background-color: #222;
+}
+.project {
+    padding: 100px 0 100px 0;
+}
+.project img {
+    height: 250px;
+}
+.service {
+    padding: 100px 0 100px 0;
+}
+.service img {
+    height: 450px;
+}
+.col li {
+    list-style: none;
+}
+/* @media (max-width: 991px) {
+    .navbar-collapse {
+        text-align: center;
+    }
+    .navbar-nav {
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    }
+} */
