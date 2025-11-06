@@ -24,7 +24,7 @@
     background-color: #222;
 }
 .project {
-    padding: 100px 0 100px 0;
+    padding: 100px 0 0 0;
 }
 .project img {
     height: 250px;
@@ -38,13 +38,15 @@
 .col li {
     list-style: none;
 }
-/* @media (max-width: 991px) {
-    .navbar-collapse {
-        text-align: center;
+@media (max-width: 991px) {
+    .service {
+        padding: 100px 0 0 0;
     }
-    .navbar-nav {
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
+    .service img {
+        width: 180px;
+        height: 300px;
     }
-} */
+    .service ul {
+        padding: 0 10px 0 10px;
+    }
+}
